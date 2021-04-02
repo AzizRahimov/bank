@@ -6,6 +6,7 @@ package types
 
 //! попытка в 14:41
 
+// ветка 2
 
 //Money - представялет собой денежную сумму в минимальных единицах (центы, копейки, дирамы и т.д)
 type Money int64
@@ -30,3 +31,4 @@ type Payment struct{
 	Category Category
 	Status Status
 }
+
